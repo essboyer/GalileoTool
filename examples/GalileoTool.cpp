@@ -12,10 +12,11 @@ namespace std {
 }
 #endif
 
-#include "osc/OscOutboundPacketStream.h"
-#include "osc/OscReceivedElements.h"
-#include "osc/OscPacketListener.h"
-#include "ip/UdpSocket.h"
+//#include "osc/OscOutboundPacketStream.h"
+//#include "osc/OscReceivedElements.h"
+//#include "osc/OscPacketListener.h"
+//#include "ip/UdpSocket.h"
+#include <liboscpack>
 
 
 #define GAL_PORT 15006

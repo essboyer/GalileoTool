@@ -47,6 +47,8 @@
           <df name="tests">
           </df>
         </df>
+        <df name="Progress">
+        </df>
         <df name="SimpleReceive.dir">
           <df name="examples">
           </df>

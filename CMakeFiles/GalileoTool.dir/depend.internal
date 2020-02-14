@@ -3,12 +3,3 @@
 
 CMakeFiles/GalileoTool.dir/examples/GalileoTool.cpp.o
  /Users/seanboyer/dev/oscpack_1_1_0/examples/GalileoTool.cpp
- ip/IpEndpointName.h
- ip/NetworkingUtils.h
- ip/PacketListener.h
- ip/UdpSocket.h
- osc/OscException.h
- osc/OscOutboundPacketStream.h
- osc/OscPacketListener.h
- osc/OscReceivedElements.h
- osc/OscTypes.h
