@@ -1,0 +1,10 @@
+/Users/seanboyer/dev/oscpack_1_1_0/CMakeFiles/rebuild_cache.dir
+/Users/seanboyer/dev/oscpack_1_1_0/CMakeFiles/edit_cache.dir
+/Users/seanboyer/dev/oscpack_1_1_0/CMakeFiles/GalileoTool.dir
+/Users/seanboyer/dev/oscpack_1_1_0/CMakeFiles/SimpleSend.dir
+/Users/seanboyer/dev/oscpack_1_1_0/CMakeFiles/OscDump.dir
+/Users/seanboyer/dev/oscpack_1_1_0/CMakeFiles/OscSendTests.dir
+/Users/seanboyer/dev/oscpack_1_1_0/CMakeFiles/OscUnitTests.dir
+/Users/seanboyer/dev/oscpack_1_1_0/CMakeFiles/SimpleReceive.dir
+/Users/seanboyer/dev/oscpack_1_1_0/CMakeFiles/OscReceiveTest.dir
+/Users/seanboyer/dev/oscpack_1_1_0/CMakeFiles/oscpack.dir

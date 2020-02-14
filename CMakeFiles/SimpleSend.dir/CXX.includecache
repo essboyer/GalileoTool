@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/seanboyer/dev/oscpack_1_1_0/examples/SimpleSend.cpp
+osc/OscOutboundPacketStream.h
+/Users/seanboyer/dev/oscpack_1_1_0/examples/osc/OscOutboundPacketStream.h
+ip/UdpSocket.h
+/Users/seanboyer/dev/oscpack_1_1_0/examples/ip/UdpSocket.h
+
+ip/IpEndpointName.h
+
+ip/NetworkingUtils.h
+
+ip/UdpSocket.h
+cstring
+-
+NetworkingUtils.h
+ip/NetworkingUtils.h
+IpEndpointName.h
+ip/IpEndpointName.h
+
+osc/OscException.h
+exception
+-
+
+osc/OscOutboundPacketStream.h
+cstring
+-
+OscTypes.h
+osc/OscTypes.h
+OscException.h
+osc/OscException.h
+
+osc/OscTypes.h
+
