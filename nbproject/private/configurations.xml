@@ -47,8 +47,6 @@
           <df name="tests">
           </df>
         </df>
-        <df name="Progress">
-        </df>
         <df name="SimpleReceive.dir">
           <df name="examples">
           </df>
@@ -133,7 +131,9 @@
         </gdb_signals>
         <gdb_options>
           <DebugOptions>
-            <option name="gdb_init_file" value="/etc/gdbinit"/>
+            <option name="gdb_init_file" value=""/>
+            <option name="gdb_source_dirs" value="."/>
+            <option name="debug_dir" value="/Users/seanboyer/dev/oscpack_1_1_0/."/>
           </DebugOptions>
         </gdb_options>
         <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>

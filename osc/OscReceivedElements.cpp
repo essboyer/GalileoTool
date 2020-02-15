@@ -39,6 +39,7 @@
 #include "OscHostEndianness.h"
 
 #include <cstddef> // ptrdiff_t
+#include <iostream>
 
 namespace osc{
 
@@ -207,7 +208,7 @@ bool ReceivedMessageArgument::AsBool() const
 		return true;
 	else if( *typeTagPtr_ == FALSE_TYPE_TAG )
 		return false;
-	else
+	else 
 		throw WrongArgumentTypeException();
 }
 
