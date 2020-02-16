@@ -10,12 +10,8 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Users/seanboyer/dev/oscpack_1_1_0/examples/SimpleReceive.cpp</file>
-            <file>file:/Users/seanboyer/dev/oscpack_1_1_0/examples/SimpleSend.cpp</file>
-            <file>file:/Users/seanboyer/dev/oscpack_1_1_0/osc/OscReceivedElements.h</file>
-            <file>file:/Users/seanboyer/dev/oscpack_1_1_0/examples/GalileoTool.cpp</file>
-            <file>file:/Users/seanboyer/dev/oscpack_1_1_0/ip/UdpSocket.h</file>
-            <file>file:/Users/seanboyer/dev/oscpack_1_1_0/CMakeLists.txt</file>
+            <file>file:/Users/seanboyer/dev/GalileoTool/CMakeLists.txt</file>
+            <file>file:/Users/seanboyer/dev/GalileoTool/examples/GalileoTool.cpp</file>
         </group>
     </open-files>
 </project-private>

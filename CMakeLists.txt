@@ -42,27 +42,10 @@ osc/OscOutboundPacketStream.cpp
 
 )
 
-
-ADD_EXECUTABLE(OscUnitTests tests/OscUnitTests.cpp)
-TARGET_LINK_LIBRARIES(OscUnitTests oscpack ${LIBS})
-
-ADD_EXECUTABLE(OscSendTests tests/OscSendTests.cpp)
-TARGET_LINK_LIBRARIES(OscSendTests oscpack ${LIBS})
-
-ADD_EXECUTABLE(OscReceiveTest tests/OscReceiveTest.cpp)
-TARGET_LINK_LIBRARIES(OscReceiveTest oscpack ${LIBS})
-
-
-ADD_EXECUTABLE(OscDump examples/OscDump.cpp)
+ADD_EXECUTABLE(OscDump OscDump.cpp)
 TARGET_LINK_LIBRARIES(OscDump oscpack ${LIBS})
 
-ADD_EXECUTABLE(SimpleReceive examples/SimpleReceive.cpp)
-TARGET_LINK_LIBRARIES(SimpleReceive oscpack ${LIBS})
-
-ADD_EXECUTABLE(SimpleSend examples/SimpleSend.cpp)
-TARGET_LINK_LIBRARIES(SimpleSend oscpack ${LIBS})
-
-ADD_EXECUTABLE(GalileoTool examples/GalileoTool.cpp)
+ADD_EXECUTABLE(GalileoTool GalileoTool.cpp)
 TARGET_LINK_LIBRARIES(GalileoTool oscpack ${LIBS})
 
 

@@ -2,8 +2,6 @@
 <configurationDescriptor version="100">
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
     <df root="." name="0">
-      <df name="bin">
-      </df>
       <df name="CMakeFiles">
         <df name="3.16.4">
           <df name="CompilerIdC">
@@ -131,9 +129,8 @@
         </gdb_signals>
         <gdb_options>
           <DebugOptions>
-            <option name="gdb_init_file" value=""/>
             <option name="gdb_source_dirs" value="."/>
-            <option name="debug_dir" value="/Users/seanboyer/dev/oscpack_1_1_0/."/>
+            <option name="debug_dir" value="/Users/seanboyer/dev/GalileoTool"/>
           </DebugOptions>
         </gdb_options>
         <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>

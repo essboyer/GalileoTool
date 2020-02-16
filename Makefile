@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.16.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/seanboyer/dev/oscpack_1_1_0
+CMAKE_SOURCE_DIR = /Users/seanboyer/dev/GalileoTool
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/seanboyer/dev/oscpack_1_1_0
+CMAKE_BINARY_DIR = /Users/seanboyer/dev/GalileoTool
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/seanboyer/dev/oscpack_1_1_0/CMakeFiles /Users/seanboyer/dev/oscpack_1_1_0/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/seanboyer/dev/GalileoTool/CMakeFiles /Users/seanboyer/dev/GalileoTool/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/seanboyer/dev/oscpack_1_1_0/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/seanboyer/dev/GalileoTool/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -214,32 +214,32 @@ oscpack/fast:
 	$(MAKE) -f CMakeFiles/oscpack.dir/build.make CMakeFiles/oscpack.dir/build
 .PHONY : oscpack/fast
 
-examples/GalileoTool.o: examples/GalileoTool.cpp.o
+GalileoTool.o: GalileoTool.cpp.o
 
-.PHONY : examples/GalileoTool.o
+.PHONY : GalileoTool.o
 
 # target to build an object file
-examples/GalileoTool.cpp.o:
-	$(MAKE) -f CMakeFiles/GalileoTool.dir/build.make CMakeFiles/GalileoTool.dir/examples/GalileoTool.cpp.o
-.PHONY : examples/GalileoTool.cpp.o
+GalileoTool.cpp.o:
+	$(MAKE) -f CMakeFiles/GalileoTool.dir/build.make CMakeFiles/GalileoTool.dir/GalileoTool.cpp.o
+.PHONY : GalileoTool.cpp.o
 
-examples/GalileoTool.i: examples/GalileoTool.cpp.i
+GalileoTool.i: GalileoTool.cpp.i
 
-.PHONY : examples/GalileoTool.i
+.PHONY : GalileoTool.i
 
 # target to preprocess a source file
-examples/GalileoTool.cpp.i:
-	$(MAKE) -f CMakeFiles/GalileoTool.dir/build.make CMakeFiles/GalileoTool.dir/examples/GalileoTool.cpp.i
-.PHONY : examples/GalileoTool.cpp.i
+GalileoTool.cpp.i:
+	$(MAKE) -f CMakeFiles/GalileoTool.dir/build.make CMakeFiles/GalileoTool.dir/GalileoTool.cpp.i
+.PHONY : GalileoTool.cpp.i
 
-examples/GalileoTool.s: examples/GalileoTool.cpp.s
+GalileoTool.s: GalileoTool.cpp.s
 
-.PHONY : examples/GalileoTool.s
+.PHONY : GalileoTool.s
 
 # target to generate assembly for a file
-examples/GalileoTool.cpp.s:
-	$(MAKE) -f CMakeFiles/GalileoTool.dir/build.make CMakeFiles/GalileoTool.dir/examples/GalileoTool.cpp.s
-.PHONY : examples/GalileoTool.cpp.s
+GalileoTool.cpp.s:
+	$(MAKE) -f CMakeFiles/GalileoTool.dir/build.make CMakeFiles/GalileoTool.dir/GalileoTool.cpp.s
+.PHONY : GalileoTool.cpp.s
 
 examples/OscDump.o: examples/OscDump.cpp.o
 
@@ -608,9 +608,9 @@ help:
 	@echo "... SimpleReceive"
 	@echo "... OscReceiveTest"
 	@echo "... oscpack"
-	@echo "... examples/GalileoTool.o"
-	@echo "... examples/GalileoTool.i"
-	@echo "... examples/GalileoTool.s"
+	@echo "... GalileoTool.o"
+	@echo "... GalileoTool.i"
+	@echo "... GalileoTool.s"
 	@echo "... examples/OscDump.o"
 	@echo "... examples/OscDump.i"
 	@echo "... examples/OscDump.s"
